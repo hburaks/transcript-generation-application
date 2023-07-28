@@ -23,9 +23,8 @@ public class Main {
         transcript.addCourseTaken(course5);
 
         System.out.println(transcript);
-
         GenerateTranscript generateTranscript = new GenerateTranscript();
-
+        generateTranscript.takeInputFromFile();
         generateTranscript.takeInputFromUser();
     }
 }
